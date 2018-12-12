@@ -4,7 +4,7 @@ package arithmetic;
  *  공통적으로 나타나는 차이므로, 공차(common difference)
  *
  */
-public class Sequence5 {
+public class Sequence70 {
 	public static void main(String[] args) {
 	//2+8+14+20+26=70
 		int A = 2; // 초항 2

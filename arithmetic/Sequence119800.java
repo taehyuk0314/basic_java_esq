@@ -15,7 +15,7 @@ Count is 199, Number is 1190, Sum is 118604
 Count is 200, Number is 1196, Sum is 119800
 S is 119800
  * */
-public class Sequence200 {
+public class Sequence119800 {
 
 	public static void main(String[] args) {
 		int A = 2;

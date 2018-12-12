@@ -11,7 +11,7 @@ package arithmetic;
       5050
       =====================
  * */
-public class Sequence100 {
+public class Sequence5050 {
 	public static void main(String[] args) {
 		int i =0 , x=0;
 		while(true) {
