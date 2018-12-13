@@ -24,14 +24,13 @@ public class Sequence119800 {
         int N = 2;
         int AN = 0;
         while(true){
-        	A+=D;
-        	S+=A;
-        	System.out.println("Count is "+N+ ", Number is "+A+" Sum is "+S);
+        	AN = A+(N-1)*D;
+        	S+=AN;
         	N++;
-        	if(N<201) {
-        		continue;
-        	}else {
+        	System.out.printf("Count is %d, Number is %d Sum is %d\n",(N-1),AN,S);
+        	if(N==201) {
         		break;
+        	
         	}
             
         }

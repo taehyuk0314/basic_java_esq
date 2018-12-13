@@ -17,9 +17,7 @@ public class Sequence5050 {
 		while(true) {
 			i++;
 			x+= i;
-			if(i<100) {
-				continue;
-			}else {
+			if(i>99) {
 				break;
 			}
 		}

@@ -3,14 +3,16 @@ package arithmetic;
 public class Syquence369 {
 
 	public static void main(String[] args) {
-		for(int i = 1;i<11; i++) {
-			if(i!=3&&i!=6&&i!=9) {
-				
+		String res = "";
+		for(int i = 0;i<10; i++) {
+			if((i+1)%3!=0) {
+				res += (i+1)+" ";
 			}else {
-				continue;
+				
 			}
-			System.out.print(i+" ");
+			
 		}
+		System.out.println(res);
 	}
 
 }
